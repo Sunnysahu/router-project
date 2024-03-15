@@ -6,8 +6,7 @@ function GtihubData({ data }) {
 
   //   const [value, setValue] = useState("");
   //   const usernameRef = useRef(null);
-  const copyToClipboard = () =>
-    window.navigator.clipboard.writeText(data.location);
+  const copyToClipboard = () => window.navigator.clipboard.writeText(data.url);
   return (
     <>
       <div className="flex justify-center">
